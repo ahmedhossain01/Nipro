@@ -140,7 +140,7 @@ header{
 }
 .c_service{
 	padding: 0 16px 40px;
-	border: 2px solid var(--ash);
+	border: 1px solid #cccccc;
 	transition: .33s;
 }
 .c_icon{
@@ -182,7 +182,7 @@ header{
 	margin-left: 15px;
 }
 .c_service:hover{
-	border: 2px solid black;
+	border: 1px solid black;
 }
 .c_service:hover .c_icon i{
 	color: black;
@@ -346,7 +346,7 @@ header{
 	margin-top: 40px;
 	padding-bottom: 35px;
 	position: relative; 
-	border-bottom: 2px solid var(--ash);
+	border-bottom: 1px solid #cccccc;
 	transition: .33s;
 }
 .w_icon{}
@@ -373,7 +373,7 @@ header{
 	margin-top: 40px;
 }
 .why_item:hover{
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 .why_item:hover span{
 	color: black;
@@ -614,8 +614,12 @@ header{
 /*form start*/
 .f_content{
 	position: relative; 
-	border: 1px solid var(--ash);
+	border: 1px solid #cccccc;
 	padding: 100px 190px 40px;
+	transition: .33s linear;
+}
+.f_content:hover{
+	border: 1px solid black;
 }
 .f_top{
 	position: absolute; 
@@ -767,9 +771,6 @@ footer:after{
 }
 .fb_right{
 	text-align: right;
-	/*display: flex;	
-	flex-direction: column;
-	justify-content: center;*/ 
 }
 .fb_right a{
 	display: inline-block;
