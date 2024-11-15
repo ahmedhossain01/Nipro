@@ -737,6 +737,7 @@ footer:after{
 }
 .f_links a span:hover{
 	background-color: white;
+	transform: scale(.9);
 }
 .f_links a span i{
 	position: absolute; 
